@@ -83,6 +83,7 @@ header {
     text-align: center;
     color: #fff;
     background: url(../img/designcoil-bg.jpg) center center no-repeat #18bc9c;
+    background-size: 100%;
 }
 header .intro-text {margin:100px auto}
 header .container {
@@ -466,4 +467,11 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+ol.std {
+    line-height: 1.5
+}
+ol.std li {
+    margin-bottom: 20px;
+    padding-left: 20px;
 }
